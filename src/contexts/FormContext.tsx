@@ -1,5 +1,3 @@
-// FormContext.tsx
-
 "use client";
 
 import React, { createContext, useState, ReactNode } from "react";
@@ -28,8 +26,7 @@ export type Field = {
   validation?: ValidationRule;
 };
 
-// We will use a more specific type for the form data (e.g., string | number | boolean)
-export type FormDataType = Record<string, string | number | boolean>;  // Adjust based on what field data can be
+export type FormDataType = Record<string, string | number | boolean>;  
 
 // Define context type
 export type FormContextType = {
@@ -39,7 +36,7 @@ export type FormContextType = {
   removeField: (id: string) => void;
   moveField: (fromIndex: number, toIndex: number) => void;
   formData: FormDataType;
-  updateFormData: (fieldId: string, value: string | number | boolean) => void;  // Use the specific types here
+  updateFormData: (fieldId: string, value: string | number | boolean) => void;  
   resetForm: () => void;
 };
 

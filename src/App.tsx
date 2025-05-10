@@ -1,10 +1,12 @@
 import MainLayout from "./components/layout/MainLayout";
-import { ToastContainer} from "react-toastify";
+import { ToastContainer } from "react-toastify";
 
 function App() {
   return (
     <div className="max-w-screen-xl mx-auto">
-      <ToastContainer position="top-right" autoClose={3000}/>
+      <ToastContainer position="top-right" autoClose={3000} />
+      
+      {/* Main Content */}
       <MainLayout />
     </div>
   );

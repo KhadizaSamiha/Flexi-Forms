@@ -33,6 +33,7 @@ const MainLayout: React.FC = () => {
               <FormBuilder />
             </div>
 
+            {/* Form Preview */}
             <div className="space-y-6">
               <div className="flex items-center justify-between">
                 <h2 className="text-xl font-bold text-primary">Form Preview</h2>
@@ -42,6 +43,7 @@ const MainLayout: React.FC = () => {
               </div>
               <FormPreview onSubmit={handleFormSubmit} />
 
+              {/* JSON Preview */}
               {showJSON && (
                 <div className="mt-8 space-y-4">
                   <div className="flex justify-between items-center">
