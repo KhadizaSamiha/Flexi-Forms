@@ -1,7 +1,7 @@
 # 🌟 FlexiForms – A Dynamic Form Builder App
 
 Live Site 🔗: [https://flexi-forms-gijr.vercel.app](https://flexi-forms-gijr.vercel.app)  
-GitHub Repo 📁: [FlexiForms GitHub](https://github.com/KhadizaSamiha/FlexiForms.git)
+GitHub Repo 📁: [FlexiForms GitHub]([https://github.com/KhadizaSamiha/FlexiForms.git](https://github.com/KhadizaSamiha/Flexi-Forms.git))
 
 ## ✨ Overview
 **FlexiForms** is a customizable form builder application that allows users to dynamically add or remove input fields, preview the form in real-time, and view the submitted data in JSON format. It's built using React, Tailwind CSS, and state is managed via Context API.
